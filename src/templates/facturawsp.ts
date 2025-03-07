@@ -5,8 +5,9 @@ import { finalizar } from "./finalizar";
 const facturawsp = addKeyword(EVENTS.ACTION)
 .addAnswer(`Aquí abajo te enseño como *obtener la factura por whatsapp* facilmente 👀👇🏻`)
 .addAnswer(` `, {
-    media: "https://i.postimg.cc/Mfj3Q67c/upscalemedia-transformed-4.png"
+    media: "https://i.postimg.cc/prsw3yyB/upscalemedia-transformed-4.png"
 })
+.addAnswer(`Enlace directo a "Bela" 👇🏻\nhttps://wa.me/5511974223520`)
 .addAnswer(
     [
         '*a.* Volver al menú\n*b.* Finalizar',
