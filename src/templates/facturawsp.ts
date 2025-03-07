@@ -7,7 +7,7 @@ const facturawsp = addKeyword(EVENTS.ACTION)
 .addAnswer(` `, {
     media: "https://i.postimg.cc/prsw3yyB/upscalemedia-transformed-4.png"
 })
-.addAnswer(`Enlace directo a "Bela" 👇🏻\nhttps://wa.me/5511974223520`)
+.addAnswer(`Enlace directo a "Bela" 👇🏻\n\nhttps://wa.me/5511974223520`)
 .addAnswer(
     [
         '*a.* Volver al menú\n*b.* Finalizar',
