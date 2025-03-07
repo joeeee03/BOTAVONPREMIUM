@@ -3,6 +3,7 @@ import { menuprincipal } from "./menuprincipal";
 import { pasarpedido } from "./pasarpedido";
 import { factura } from "./factura";
 import { compraf } from "./compraf";
+import { facturas } from "./facturas";
 
 const pedidosyfacturacion = addKeyword(EVENTS.ACTION)
 .addAnswer(`Por favor, seleccione una opcion 👇`)
@@ -21,9 +22,9 @@ const pedidosyfacturacion = addKeyword(EVENTS.ACTION)
                 case "A":
                     return gotoFlow(pasarpedido);
                     case "b":
-                        return gotoFlow(factura);
+                        return gotoFlow(facturas);
                         case "B":
-                            return gotoFlow(factura);
+                            return gotoFlow(facturas);
                             case "c":
                                 return gotoFlow(compraf);
                                 case "C":

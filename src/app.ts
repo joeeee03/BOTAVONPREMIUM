@@ -15,6 +15,9 @@ const main = async () => {
         flow: templates,
         provider: adapterProvider,
         database: adapterDB,
+    },
+    {
+        blackList: ['5511974223520']
     })
 
     adapterProvider.server.post(

@@ -29,9 +29,11 @@ import { dudarecibida, otraduda } from "./otraduda";
 import { administrador, agregarbl, eliminarbl } from "./administrador";
 import { compraf } from "./compraf";
 import { espejovirtual } from "./espejovirtual";
+import { facturas } from "./facturas";
+import { facturawsp } from "./facturawsp";
 
 export default createFlow([
-saludo, menuprincipal, inicio, empezar, regalo, finalizar, ventasyganancias, importes, ganancias, cuotas, materialdeapoyo, folletos, fhome, fcosmetica, fdigital, pedidosyfacturacion, pasarpedido, pasarpedidocelular, pasarpedidocomputadora, factura, campañasypromociones, link, fechas, cambios, acceso, datospersonales, otraduda, dudarecibida, compraf, espejovirtual,
+saludo, menuprincipal, inicio, empezar, regalo, finalizar, ventasyganancias, importes, ganancias, cuotas, materialdeapoyo, folletos, fhome, fcosmetica, fdigital, pedidosyfacturacion, pasarpedido, pasarpedidocelular, pasarpedidocomputadora, factura, campañasypromociones, link, fechas, cambios, acceso, datospersonales, otraduda, dudarecibida, compraf, espejovirtual, facturas, facturawsp,
 
 administrador, agregarbl, eliminarbl
 ]);
