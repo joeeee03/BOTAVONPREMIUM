@@ -13,7 +13,7 @@ const menuprincipal = addKeyword(["Hola", "Menu", "Menú"])
     .addAnswer(`¿En qué puedo ayudarte? Responde con la letra de la opción que necesitas.`)
     .addAnswer(
         [
-            '*a.* 🚀 Inicio y acompañamiento\n*b.* 💰 Ventas y ganancias\n*c.* 📚 Material de apoyo\n*d.* 🛒 Pedidos y facturación\n*e.* 🎯 Campañas y promociones\n*f.* 🔄 Cambios y devoluciones\n*g.* 🌐 Acceso página de Avon\n*h.* 🪞 Espejo digital Avon\n*i.* ❓ Otra consulta',
+            '*a.* 🚀 Inicio y acompañamiento\n*b.* 💰 Ventas y ganancias\n*c.* 📚 Material de apoyo\n*d.* 🛒 Pedidos y facturación\n*e.* 🎯 Campañas y promociones\n*f.* 🔄 Cambios y devoluciones\n*g.* 🌐 Acceso página de Avon\n*h.* 🪞 Espejo virtual Avon\n*i.* ❓ Otra consulta',
         ].join('\n'),
         { capture: true },
         async (ctx, { gotoFlow, fallBack }) => {

@@ -3,7 +3,7 @@ import { menuprincipal } from "./menuprincipal";
 import { finalizar } from "./finalizar";
 
 const espejovirtual = addKeyword(EVENTS.ACTION)
-.addAnswer(`Te envío el video donde te explicamos como usar *Espejo digital AVON* fácilmente 👀👇🏻`)
+.addAnswer(`Te envío el video donde te explicamos como usar *Espejo virtual AVON* 👀👇🏻`)
 .addAnswer(` `, {
     media: "https://ik.imagekit.io/eg3f7jpnp/WhatsApp%20Video%202025-02-28%20at%2021.22.11.mp4?updatedAt=1741304572965"
 })
